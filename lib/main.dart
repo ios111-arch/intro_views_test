@@ -9,7 +9,7 @@ class App extends StatelessWidget {
   // Making list of pages needed to pass in IntroViewsFlutter constructor.
   final pages = [
     PageViewModel(
-      pageColor: Colors.blueAccent,
+      pageColor: Colors.indigoAccent,
       // iconImageAssetPath: 'assets/air-hostess.png',
       bubble: Image.asset('assets/IMG_6303.png'),
       body: const Text(
@@ -21,7 +21,7 @@ class App extends StatelessWidget {
       titleTextStyle: const TextStyle(
         fontFamily: 'MyFont',
         color: Colors.white,
-        fontSize: 30,
+        fontSize: 40,
       ),
       bodyTextStyle: const TextStyle(
         fontFamily: 'MyFont',
@@ -30,13 +30,13 @@ class App extends StatelessWidget {
       ),
       mainImage: Image.asset(
         'assets/IMG_6303.png',
-        height: 285.0,
-        width: 285.0,
+        height: 300.0,
+        width: 300.0,
         alignment: Alignment.center,
       ),
     ),
     PageViewModel(
-      pageColor: Colors.blueAccent,
+      pageColor: Colors.indigoAccent,
       iconImageAssetPath: 'assets/IMG_6303.png',
       body: const Text(
         'クイズ等のアプリで利用可能なコンテンツを表示することができます',
@@ -48,9 +48,16 @@ class App extends StatelessWidget {
         width: 285.0,
         alignment: Alignment.center,
       ),
-      titleTextStyle:
-          const TextStyle(fontFamily: 'MyFont', color: Colors.white),
-      bodyTextStyle: const TextStyle(fontFamily: 'MyFont', color: Colors.white),
+      titleTextStyle: const TextStyle(
+        fontFamily: 'MyFont',
+        color: Colors.white,
+        fontSize: 40,
+      ),
+      bodyTextStyle: const TextStyle(
+        fontFamily: 'MyFont',
+        color: Colors.white,
+        fontSize: 20,
+      ),
     ),
   ];
 
